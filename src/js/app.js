@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const productContainer = document.getElementById('product-container');
             products.forEach(product => {
                 const productCard = document.createElement('div');
-                productCard.className = 'bg-slate-800 p-6 rounded-lg shadow-lg';
+                productCard.className = 'bg-slate-800 p-6 mt-16 rounded-lg shadow-lg';
 
                 productCard.innerHTML = `
                     <h2 class="text-xl font-bold mb-2">${product.name}</h2>
